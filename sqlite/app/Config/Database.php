@@ -29,7 +29,7 @@ class Database extends Config
         'hostname'     => '',
         'username'     => '',
         'password'     => '',
-        'database'     => WRITEPATH .'fitspace.db',
+        'database'     => APPPATH . 'Database' . DIRECTORY_SEPARATOR . 'sql' . DIRECTORY_SEPARATOR . 'database.db',
         'DBDriver'     => 'SQLite3',
         'DBPrefix'     => '',
         'pConnect'     => false,
