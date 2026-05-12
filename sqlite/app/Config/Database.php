@@ -30,7 +30,7 @@ class Database extends Config
         'username'     => '',
         'password'     => '',
         'database'     => WRITEPATH .'fitspace.db',
-        'DBDriver'     => 'MySQLi',
+        'DBDriver'     => 'SQLite3',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
