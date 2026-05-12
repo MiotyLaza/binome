@@ -16,6 +16,21 @@ A FAIRE:
     - admin/creneaux.php: creneaux admin
     - admin/reservations.php: admin reservations
     
- * Affichage:
- * Logique metiers:
+app/Views/
+├── layouts/
+│   ├── public.php          (nav + footer public)
+│   └── dashboard.php       (sidebar + topbar pour client/admin)
+├── pages/
+│   ├── index.php           (accueil) 
+│   ├── creneaux.php        (liste créneaux client)
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── register.php
+├── client/
+│   ├── dashboard.php
+│   └── reservations.php
+└── admin/
+    ├── dashboard.php
+    ├── creneaux.php
+    └── reservations.php
 
