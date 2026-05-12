@@ -1,0 +1,21 @@
+OBJECTIF PRINCIPALE: Changer le projet actuel en utilsant codeIgniter4 et SQLite
+------------------------------------------
+A FAIRE:
+
+1. Creer Base de donnee
+  -> Creer les tables respectifs: 
+
+2. Les pages a Creer
+    - index.php: Accueil public - page 1
+    - client/creneaux.php: Liste des creneaux
+    - auth/login.php: Connexion
+    - auth/register.php: Inscription
+    - client/dashboard.php: tableau de bord
+    - clients/reservations.php: mes reservations
+    - admin/dashboard.php: tableau de bord admin
+    - admin/creneaux.php: creneaux admin
+    - admin/reservations.php: admin reservations
+    
+ * Affichage:
+ * Logique metiers:
+
